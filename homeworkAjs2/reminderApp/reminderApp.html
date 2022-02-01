@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder</title>
+    <style type="text/css">
+        body {background-color: honeydew;}
+        div {background-color:floralwhite; border: gray solid 3px;}
+        h4 {text-align: center;}
+        label {margin-left: 15px;}
+        #addReminder {margin-left: 45px; font-size: larger;}
+        #showReminders {font-size: larger; margin: 55px 25% 55px 45%; height: auto; width: 11%;}
+        #remindersDiv {display: none;}
+        #hideBtn {font-size: larger; margin: 55px auto;}
+    </style>
+</head>
+<body>
+    <h4>My reminders</h4>
+    <div id="inputDiv">
+        <label for="titleInput" >Enter name of remainder:</label>
+        <input type="text" name="titleInput" id="titleInput">
+        <label for="priorityStatus">Choose priority status:</label>
+        <select name="priorityStatus" id="priorityStatus">
+            <option value="Normal ⭕"></option>
+            <option value="Urgent⚠️">Urgent⚠️</option>
+            <option value="Highest ︽">Highest ︽</option>
+            <option value="Higher ︿">Higher ︿</option>
+            <option value="Normal ⭕">Normal ⭕</option>
+            <option value="Low ﹀">Low ﹀</option>
+            <option value="Lowest ︾">Lowest ︾</option>
+        </select>
+        <label for="colorPicker">Choose title color:</label>
+        <input type="color" id="colorPicker" name="colorPicker" value="#ff0000">
+        <label for="addDescription">Add description:</label>
+        <textarea name="addDescription" id="addDescription" cols="44" rows="4"></textarea>
+        <button id="addReminder">Add reminder</button>
+    </div>
+    <div id="showRemindersDiv"><button id="showReminders">Show reminders</button></div>
+    <div id="remindersDiv">
+        <table border="2">
+            <tr id="titleColumn"><td>Title</td></tr>
+            <tr id="priorityColumn"><td>Priority Status</td></tr>
+            <tr id="descriptionColumn"><td>Description</td></tr>
+        </table>
+        <button id="hideBtn">Hide reminders</button>
+    </div>
+    <script src="./reminderApp.js"></script>
+</body>
+</html>
+
