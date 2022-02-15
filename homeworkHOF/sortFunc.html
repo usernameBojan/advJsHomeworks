@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        h1 {text-align: center;}
+        div { display: inline-block; margin: 10px 150px 75px 150px}
+    </style>
+</head>
+<body>
+    <h1>Sorted Movies</h1>
+    <div>
+        <div id="first">
+            <h4>Sorted by year from earliest to latest</h4>
+            <table border="1" id="sortByYearASC">
+                <thead>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </thead>
+            </table>
+        </div>
+        <div>
+            <h4>Sorted by year from newest to oldest</h4>
+            <table border="1" id="sortByYearDSC">
+                <thead>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </thead>
+            </table>
+        </div>
+        <div>
+            <h4>Sorted by rating from highest to lowest</h4>
+            <table border="1" id="sortByRatingDSC">
+                <thead>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </thead>
+            </table>
+        </div>
+        <div>
+            <h4>Sorted by rating from lowest to highest</h4>
+            <table border="1" id="sortByRatingASC">
+                <thead>
+                    <th>Name</th>
+                    <th>Year</th>
+                    <th>Rating</th>
+                </thead>
+            </table>
+        </div>
+        <div></div>
+    </div>
+    <script src="./sortFunc.js"></script>
+</body>
+</html>
