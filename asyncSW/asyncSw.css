@@ -1,0 +1,33 @@
+@import url(https://allfont.net/allfont.css?fonts=star-jedi);
+
+* {
+    font-family: 'Star Jedi', arial, !important;
+}
+
+body {
+    background-color: black;
+    background-image: url("https://jooinn.com/images/simple-starry-space-background.jpg");
+}
+
+span {
+    color: yellow; 
+    cursor: pointer;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#imgDiv {
+    margin: 100px 350px 100px 560px;
+}
+
+#titleDiv {
+    color: aqua;
+    margin-bottom: 75px;
+}
+
+#allMoviesDiv {
+    margin-top: 50px;
+}

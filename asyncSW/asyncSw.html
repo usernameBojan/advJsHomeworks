@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asyncSw.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>STAR WARS | Skywalker Saga</title>
+</head>
+<body> 
+    <div id="mainDiv">
+        <div id="titleDiv">
+            <h3 class="container col-md-2">STAR WARS  Skywalker Saga</h3>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <span class="mb-1 h1">All movies</span>
+            <span class="mb-1 h1">By trilogy</span>   
+        </nav> 
+        <div id="allMoviesDiv" class="hidden">
+            <div>
+                <button class="btn btn-outline-warning">Show movies by release date</button>
+            </div> <br>
+            <div>
+                <button class="btn btn-outline-warning">Show by in-universe chronological order</button>
+            </div> 
+            <div id="sortedByDate" class="container hidden">
+                <table class="table table-dark table-borderless"></table>
+            </div>
+            <div id="sortedByOrder" class="container hidden">
+                <table class="table table-dark table-borderless"></table>
+            </div>
+            <button class="container btn btn-danger">Hide</button>
+        </div>    
+        <div id="trilogiesDiv" class="hidden">
+            <button class="btn btn-outline-warning">Show Original Trilogy</button> <br>
+            <button class="btn btn-outline-warning">Show Prequel Trilogy</button> <br>
+            <button class="btn btn-outline-warning">Show Sequel Trilogy</button> <br>
+            <button class="btn btn-outline-warning">Show all</button> <br>
+            <div id="originalTrilogyDiv" class="container hidden">
+                <table class="table table-dark table-borderless"></table>
+            </div>
+            <div id="prequelTrilogyDiv" class="container hidden" >
+                <table class="table table-dark table-borderless"></table>
+            </div>
+            <div id="sequelTrilogyDiv" class="container hidden">
+                <table class="table table-dark table-borderless"></table>
+            </div> <br>
+            <button class="container btn btn-danger table-borderless">Hide</button>
+        </div>    
+        <div id="imgDiv" class="hidden">
+            <img src="./imgs/may-the-force-be-with-you-artwork.png" alt="Blue Lightsaber">
+        </div>
+    </div> 
+    <script src="./asyncSw.js"></script>
+</body>
+</html>
