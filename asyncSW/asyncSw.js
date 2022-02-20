@@ -1,4 +1,4 @@
-let swUrl = "https://swapi.dev/api/films";
+let swUrl = "https://swapi.dev/api/films"; // swapi.dev враќа Privacy error и моментално не ги печати резултатите 
 let tables = document.querySelectorAll("table");
 let navContents = document.querySelectorAll("span");
 let allBtns = document.querySelectorAll("button");
