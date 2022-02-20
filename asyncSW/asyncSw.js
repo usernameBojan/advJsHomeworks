@@ -212,6 +212,7 @@ allBtns[5].addEventListener("click", () => {
 });
 
 allBtns[6].addEventListener("click", () => {
+    imgDiv.style.display = "none";
     manipulateTrilogyDivs("block", "block","block");
     manipulateBtns("none", "none", "none", "none", "none", "none", "none", "block")
 });
