@@ -1,4 +1,4 @@
-let swUrl = "https://swapi.dev/api/films"; // swapi.dev враќа Privacy error и моментално не ги печати резултатите 
+let swUrl = "https://swapi.py4e.com/api/films/"; //fixed // "https://swapi.dev/api/films"; // swapi.dev враќа Privacy error и моментално не ги печати резултатите 
 let tables = document.querySelectorAll("table");
 let navContents = document.querySelectorAll("span");
 let allBtns = document.querySelectorAll("button");
@@ -12,13 +12,13 @@ let prequelTrilogyDiv = document.getElementById("prequelTrilogyDiv");
 let sequelTrilogyDiv = document.getElementById("sequelTrilogyDiv");
 
 let sequelTrilogy = [
-    {
-    title: "The Force Awakens",
-    release_date: "2015-18-12",
-    director: "J.J. Abrams",
-    producer: "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
-    episode_id: 7
-    },
+//     {
+//     title: "The Force Awakens",
+//     release_date: "2015-18-12",
+//     director: "J.J. Abrams",
+//     producer: "Kathleen Kennedy, J.J. Abrams, Bryan Burk",
+//     episode_id: 7
+//     },
     {
     title: "The Last Jedi",
     release_date: "2017-09-12",
