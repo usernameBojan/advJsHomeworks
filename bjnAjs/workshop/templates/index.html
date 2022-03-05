@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">  
+    <title>Countripedia</title>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">Countripedia</span>
+        <span class="navbar-brand mb-0 h4">
+            <button id="euroBtn">Show countries using Euro</button>
+            <button id="englishBtn">Show English speaking countries</button>
+        </span>
+        <span class="navbar-brand mb-0 h1">
+            <label for="searchBar"></label>
+            <input type="search" id="searchBar" placeholder="Search for a country">
+            <button id="searchBtn">Search</button>
+        </span>
+    </nav>
+    <div id="countryCard" class="card-group"></div> 
+    
+    <!-- <div>           
+        <ul id="langList" style="list-style: none; ">
+           <button id="spokenLangBtn" class="btn btn-outline-primary">Spoken languages</button>
+           <div id="dropDown">
+            <li>
+               <button id="germanicLangBtn" class="btn btn-outline-primary col-12">Germanic languages</button>
+               <ul style="list-style: none;" id="germLangs">
+                   <li><button id="allGerm" class="btn btn-outline-primary col-12">All Germanic speaking states</button></li>
+               </ul> 
+           </li>
+            <li>
+               <button id="latLangBtn" class="btn btn-outline-primary col-12">Romance languages</button>
+               <ul style="list-style: none;" id="latLangs" >
+                   <li><button id="allLat" class="btn btn-outline-primary col-12">All Romance speaking states</button></li>
+               </ul> 
+           </li>
+            <li>
+               <button id="slavicLangBtn" class="btn btn-outline-primary col-12">Slavic languages</button>
+               <ul style="list-style: none;" id="slavLangs" >
+                   <li><button id="allSlav" class="btn btn-outline-primary col-12">All Slavic speaking states</button></li>
+               </ul> 
+           </li>
+        </ul>
+       </div>
+   </div>  -->
+    <script src="../scripts/app.js"></script>
+</body>
+</html>
